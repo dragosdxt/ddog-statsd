@@ -19,7 +19,10 @@ function eventsProcessor() {
             c.increment("processed_events", tags)
             c.gauge('events.db.connections', getRandomIntInclusive(1, 300), tags)
 
-            console.log("event saved [ms]", millis)
+            logMsg ={l0:{l1:{l2:{l3:{l4:{l5:{l6:{l7:{l8:{l9:{milis:millis}}}}}}}}}}}
+            // console.log("event saved [ms]", millis)
+            // console.log(logMsg)
+            console.log(JSON.stringify(logMsg))
         } else {
             c.increment("failed_events", tags)
             c.gauge('events.db.connections', 0, tags)
