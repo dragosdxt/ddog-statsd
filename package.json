@@ -1,0 +1,23 @@
+{
+  "name": "ddog-statsd",
+  "version": "1.0.0",
+  "description": "A simple example of datadog client nodejs library integration",
+  "main": "app.js",
+  "dependencies": {
+    "node-dogstatsd": "0.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dragosdxt/ddog-statsd.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dragosdxt/ddog-statsd/issues"
+  },
+  "homepage": "https://github.com/dragosdxt/ddog-statsd#readme"
+}

@@ -1,0 +1,17 @@
+node_modules/
+_*.sh
+.jenkins/
+Jenkinsfile
+api-docs
+!api-docs/build/
+.git/
+coverage/
+.dockerignore
+Dockerfile
+.gitignore
+.env
+.eslintrc
+.editorconfig
+.gitlab-ci.yml
+**/*.DS_Store
+
